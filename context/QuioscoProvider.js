@@ -80,7 +80,9 @@ const QuioscoProvider = ({ children }) => {
 
   const colocarOrden = async (e) => {
     e.preventDefault();
-    console.log("Enviando Orden");
+    console.log(pedido);
+    console.log(nombre);
+    console.log(total);
   };
 
   return (
