@@ -19,13 +19,6 @@ const ModalProducto = () => {
     }
   }, [producto, pedido]);
 
-  //Comprobar si modal actual esta en el pedido
-  if (pedido.some((pedidoState) => pedidoState.id === producto.id)) {
-    console.log("existe");
-  } else {
-    console.log("no existe");
-  }
-
   return (
     <div className="md:flex gap-10">
       <div className="md:w-1/3">
